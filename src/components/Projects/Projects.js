@@ -24,7 +24,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elevatelab}
-              isBlog={false}
               title="elevate-labs"
               description="An Angular-based web application designed to empower aspiring entrepreneurs and startups by offering instant idea validation and market insights. The platform streamlines early-stage business planning by providing financial projections, risk analysis, and actionable strategies for faster execution. It also features an AI-powered logo generator to help build a professional brand identity from day one."
               ghLink="https://github.com/KashyapPatel2005/elevate-lab"
@@ -35,7 +34,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={zoom}
-              isBlog={false}
               title="zoomX"
               description="Developed a real-time video conferencing platform where users can schedule meetings and share a uniquemeeting code.Integrated WebRTC and Socket.IO for seamless live video streaming and real-time chat communication. Implemented secure meeting access, ensuring privacy and reliability for virtual meetings, online classes, andteam collaborations."
               ghLink="https://github.com/KashyapPatel2005/zoomX"
@@ -46,7 +44,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={proconnect}
-              isBlog={proconnect}
               title="PRO-CONNECT"
               description="Developed a professional networking platform similar to LinkedIn, enabling users to authenticate, managemanage profile, update profile, download resume.Implemented features like sending and accepting connection requests, posting updates, liking posts, andengaging in professional networking"
               ghLink="https://github.com/KashyapPatel2005/ProConnect"
